@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dylan Scott Winters | WDD 130</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+          <a href="#">Home</a>
+          <a href="wwr/">Rafting Website</a>
+          <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
+        </nav>
+      </header>
+      <main>
+        <h1>Dylan Scott Winters | WDD 130</h1>
+        <img src="images/profile.jpg" alt="Hello my name is Dylan Winters" width="200">
+        <p>Hello my name is Dylan Winters and i am an anime fan</p>
+      </main>
+      <footer>
+        <p>©️2024 Dylan Winters New Mexico, USA</p>
+      </footer>
+  </body>
+</html>
