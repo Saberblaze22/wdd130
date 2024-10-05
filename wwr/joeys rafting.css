@@ -1,0 +1,107 @@
+:root{
+    --primary-color: #523A28;
+    --secondary-color: #314387;
+    --accent1: #B6A491;
+    --accent2: #3E87CC;
+}
+
+main {
+    background-color: var(--primary-color);
+    width: 800px;
+}
+
+header{
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    font-family: 'Graduate'
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+
+p {
+    width: 800px;
+    color: var(--accent2);
+}
+
+section img {
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 800px;
+    font-family: 'graduate';
+}
+
+aside {
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    width: 800px;
+    background-color: var(--accent1);
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
+nav {
+    width: 800px;
+}
+
+nav img{
+    width: 80px;
+    height: auto;
+}
+
+section {
+    font-family: 'Roboto Slab';
+}
+
+.hero {
+    position: relative;
+    height: 540px;
+}
+
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+  }  
+
+.hero article img{
+    position: relative;
+    width: 40%;
+    margin: 2rem;
+    height: auto;
+    float: right;
+    float: inline-end;
+}
+
+.hero h1{
+    position: absolute;
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 800px;
+    margin: 0;
+    font-family: 'graduate';
+}
+
+.hero article{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    font-family: 'Roboto Slab';
+}
+
+.hero p {
+    color: var(--secondary-color);
+}
