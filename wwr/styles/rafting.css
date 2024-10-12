@@ -8,12 +8,17 @@ main{background-color: var(--accentcolor);
     width: 100%;}
 header{
     background-color: var(--primarycolor);
+    display: grid; 
+    grid-template-columns: 1fr 4fr;
 }
 header img{
     width: 200px;
     height: auto;
 }
+header nav{
+    display: flex;
 
+}
 p {
     width: 800px;
     color: var(--accent2);
@@ -37,8 +42,15 @@ aside {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     width: 800px;
     background-color: var(--accentcolor);
+}
+
+footer nav{
+    display: flex;
+
 }
 
 footer p {
@@ -97,4 +109,22 @@ section {
 
 .hero p {
     color: var(--accentcolor);
+}
+
+.history_grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.history_grid h2{
+    grid-column-start: span 2;
+}
+
+.image_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.image_grid h2{
+    grid-column-start: span 5;
 }
