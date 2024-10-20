@@ -128,3 +128,16 @@ section {
 .image_grid h2{
     grid-column-start: span 5;
 }
+
+.employee_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employee_grid h2{
+    grid-column-start: span 3; 
+}
+
+textarea
+{ width: 100%;
+}
