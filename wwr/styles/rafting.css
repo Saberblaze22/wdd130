@@ -1,39 +1,56 @@
 :root{
-    --primarycolor: #a62639;
+    --primarycolor: #751A27;
     --secondarycolor: #011638;
     --accentcolor: #FFFCF9;
-    --accent2color: #F19143;    
+    --accent2color: #F19143;
 }
-main{background-color: var(--accentcolor);
-    width: 100%;}
-header{
+
+main {
     background-color: var(--primarycolor);
-    display: grid; 
-    grid-template-columns: 1fr 4fr;
 }
-header img{
-    width: 200px;
+
+h1, h2{
+    background-color: var(--accentcolor);
+    color: var(--secondarycolor);
+    width: 100%;
+    margin: 0;
+    font-family: 'graduate';
+}
+
+textarea{
+    width: 100%;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondarycolor);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    background-color: var(--accentcolor);
+    color: var(--secondarycolor);
+    font-family: 'Graduate';
+}
+
+header img {
+    width: 100%;
     height: auto;
 }
-header nav{
-    display: flex;
 
-}
 p {
-    width: 800px;
-    color: var(--accent2);
+    color: var(--accent2color);
 }
 
 section img {
-    width: 200px;
+    max-width: 100%;
     height: auto;
-}
-
-h2 {
-    background-color: var(--accentcolor);
-    color: var(--secondarycolor);
-    width: 800px;
-    font-family: 'Oswald';
 }
 
 aside {
@@ -41,16 +58,30 @@ aside {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    width: 800px;
-    background-color: var(--accentcolor);
+button {
+    font-family: 'Roboto Slab';
 }
 
-footer nav{
-    display: flex;
+footer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: var(--accentcolor);
+    font-family: 'Roboto Slab';
+}
 
+footer nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+a {
+    color: var(--accent2color);
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
 }
 
 footer p {
@@ -58,86 +89,104 @@ footer p {
 }
 
 nav {
-    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
 }
 
-nav img{
-    width: 80px;
-    height: auto;
+nav a{
+    color: var(--secondarycolor);
+    padding: 20px;
 }
 
 section {
-    font-family: 'pt sans narrow';
+    font-family: 'Roboto Slab';
+    color: var(--accent2color);
 }
 
 .hero {
     position: relative;
-    height: 540px;
+    height: 48rem;
 }
 
 .hero img {
     position: absolute;
     display: block;
-    width: 45%;
+    width: 100%;
     height: auto;
   }  
 
 .hero article img{
     position: relative;
     width: 40%;
-    margin: 2rem;
+    margin-right: 2rem;
     height: auto;
     float: right;
     float: inline-end;
+    border: 3px solid black;
 }
 
 .hero h1{
     position: absolute;
-    background-color: var(--accent2color);
-    color: var(--secondarycolor);
-    width: 800px;
-    margin: 0;
-    font-family: 'oswald';
 }
 
 .hero article{
+    color: black;
     position: absolute;
     margin-top: 10rem;
-    margin-left: 2rem;
-    font-family: 'pt sans narrow';
+    margin-left: 1rem;
+    font-family: 'Roboto Slab';
 }
 
 .hero p {
-    color: var(--accentcolor);
+    margin-top: 5rem;
+    color: var(--primarycolor);
+    font-family: 'Roboto Slab';
 }
 
 .history_grid{
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.history_grid h2{
+.history_grid h2 {
     grid-column-start: span 2;
 }
 
-.image_grid{
+.grid_layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.image_grid h2{
+.grid_layout h2 {
     grid-column-start: span 5;
 }
 
-.employee_grid{
+.grid_image {
+    border: 3px solid black;
+}
+
+.emp_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.employee_grid h2{
-    grid-column-start: span 3; 
+.emp_grid h2 {
+    grid-column-start: span 3;
 }
 
-textarea
-{ width: 100%;
+.index_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.index_grid a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trips_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
